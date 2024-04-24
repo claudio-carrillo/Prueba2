@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: none;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    margin-left: 30px;
+
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+h2:hover {
+    transition: 1.2s;
+}
+
+  .div-p{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 250px;
+    width: 20px;
+    border-radius: 50px;
+     width: 730px;
+    
+  
+  
+  
+}
+
+.cuadro-1{
+  color: black;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  height: 170px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.cuadro-2{
+  color: black;
+  text-align: center;
+  position:relative;
+  background-color: white;
+  height: 170px;
+  width: 200px;
+  margin-left: 70px;
+  margin-top: 48px;
+  margin-right: 10px;
+  border-radius: 15px;
+  
+  
+
+
+}
+
+.cuadro-3{
+  color:black;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  height: 170px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+
+
+}
+
+.div-negro {
+    color: white;     
+    padding: 5%;
+    position: absolute;
+    text-align: center;
+    margin-top: 70%;
+    background-color: rgb(36, 36, 36);
+    width: 100%; 
+    margin: 0 aut
+  
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: white;
+    }
+  
+    h1 {
+      display: none;
+    }
+  
+    div {
+      display: block;
+    }
+
+    .cuadro-1{
+      display: block;
+  
+      background-color: white;
+      width: 100%;
+      height: 150px;
+  }
+  
+    .cuadro-2{
+      
+      display: block;
+      background-color: white;
+      width: 100%;
+      height: 150px;
+  }
+  
+    .cuadro-3{
+      display: block;
+  
+      background-color: white;
+      width: 100%;
+      height: 150px;
+      margin-left: 1%;
+    }
+}
